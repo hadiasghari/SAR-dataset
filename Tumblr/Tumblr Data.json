@@ -1,0 +1,193 @@
+{
+    "schemaType": "subjectAccessRequest",
+    "description": "Tumblr subjectAccessRequest schema",
+    "properties": {
+        "notification data": {
+          "description": "Your device level settings change events",
+          "properties": {
+              "app_version": "The version of the Tumblr app that changed the setting",
+              "value": "The value the setting was changed to",
+              "device": "The device platform that changed the setting (iOS/Android)",
+              "timestamp": "The date and time when the setting was changed",
+              "setting": "The name of the setting that was changed"
+          }
+        },
+        "api_applications_used": {
+            "description": "The third-party applications you've logged into",
+            "properties": {
+                    "app_name": "Name of application used during session",
+                    "session_expiration_time": "Date and time of when the session expired",
+                    "session_created_time": "Date and time of your login"
+                }
+        },
+        "email_ads_surveys": {
+            "description": "Email surveys that were sent to you after viewing an ad",
+            "properties": {
+                    "survey_url": "The URL of the survey contained in the email sent to you",
+                    "post_id": "The ID of the post used as an Ad",
+                    "email": "The email address we sent surveys to",
+                    "group": "The user group you are bucketed into based on your interactions with an ad"
+                }
+        },
+        "user_stratum": "How we categorize you based on information you provide us, such as your engagement history and registration time",
+        "crushers": {
+            "description": "Blogs that engaged with your blog's contents the most",
+            "properties": {
+              "blog_name": "The name of a blog that interacted with your blog's contents the most"
+            }
+        },
+        "most_important_tags": {
+            "description": "The most unique tags used on your blogs and surfaced by searches",
+            "properties": {
+                    "tag": "Tag used by you",
+                    "blog_name": "The name of your blog"
+                }
+
+        },
+        "api_applications_created": {
+            "description": "The third-party applications you've created",
+            "properties": {
+                    "play_store_url": "Location of the app in the Google Play Store",
+                    "callback_url": "OAuth callback URL",
+                    "consumer_key": "OAuth consumer key",
+                    "app_icons": "Display icons for the application",
+                    "app_store_url": "Location of the app in the Apple App Store",
+                    "description": "Description of the application",
+                    "title": "Title of the application",
+                    "app_id": "Unique identifier of the application",
+                    "admin_email": "The email address supplied for contact information",
+                    "app_website": "Location of website for the app"
+                }
+
+        },
+        "user_language": "The language currently associated with your account",
+        "most_used_tags": {
+            "description": "The tags used most often on each of your blogs",
+            "properties": {
+                    "tag_count": "How many times you've used this tag",
+                    "tag": "Tag used by you",
+                    "blog_name": "The name of your blog"
+                }
+        },
+        "app_feedback": {
+            "description": "Feedback you have given about the mobile apps",
+            "properties": {
+                    "feedback": "The actual feedback you submitted",
+                    "response": "Whether we received the feedback successfully in our support system",
+                    "version": "Which app version you used to submit the feedback",
+                    "platform": "Which mobile app platform you were on",
+                    "timestamp": "Date and time of feedback submission"
+                }
+        },
+
+        "registration_time": "This is when you first joined Tumblr",
+        "email": "The email address currently associated with your account",
+        "crushes": {
+            "description": "The blogs you loved and engaged with the most",
+            "properties": {
+              "blog_name": "The name of the blog you interacted with the most"
+            }
+
+        },
+        "dashboard": {
+            "description": "Everything you have been served on your dashboard in the order of when you saw it",
+            "properties": {
+                    "serve_time": "What time this content element was served",
+                    "content_url": "When available, direct URL of the post",
+                    "element_type":"The type of content element",
+                    "platform": "The device or platform you were using when served this content element"
+                }
+        },
+        "last_active_times": ["The dates and times you were active on Tumblr"],
+        "bcookie_mapping": {
+            "description": "The user trackers needed for targeting advertising",
+            "properties": {
+                    "name": "Your blog name",
+                    "advertising_id": "Your mobile ID For Advertising"
+                }
+        },
+        "user_age": "Your age according to the birth year you provided",
+        "login_logout_times": {
+            "description": "When you've logged in and out",
+            "properties": {
+                    "type": "Whether we're tracking a login or logout action",
+                    "platform": "The device or platform you were using when logging in or logging out",
+                    "timestamp": "Date and time of when the login or logout happened"
+                }
+        },
+        "ads_analytics": {
+            "description": "User events on posts created by Tumblr premium partners",
+            "title": "Native Tumblr premium post analytics event",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "serve_time": "Date and time indicating the time the post was served",
+                    "post_url": "Post URL you were served",
+                    "viewed": "If you viewed the post",
+                    "interacted": "If you interacted with the post",
+                    "placement_id": "If this was an ad, the ID assigned to that ad"
+                }
+            }
+        },
+        "last_post_time": "The timestamp of the last post made on your account, including any secondary blogs",
+        "geo_profiles": {
+            "description": "Where you were when you performed certain actions on Tumblr. Logged for product and performance analysis",
+            "properties": {
+                    "country": "The country we think you were in when you performed the action",
+                    "city": "The city we think you were in when you performed the action",
+                    "state": "The state or province we think you were in when you performed the action"
+                }
+        },
+        "mobile_device_oses": {
+            "description": "Information about your mobile device",
+            "properties": {
+                    "os_type": "The type of operating system your device uses",
+                    "os_version": "The version your device operation system is using",
+                    "os_language": "The language your device is set to use"
+                }
+        },
+        "blog_backups": {
+            "description": "Backups of your blog(s)",
+            "properties": {
+                    "backup_link": "Link to the blog backup download",
+                    "blog_name": "Blog that requested a blog backup",
+                    "timestamp": "Date and time of blog backup request",
+                    "status": "Status of the blog backup"
+                }
+        },
+        "labs_experiments": {
+            "description": "The Tumblr Labs experiments and their options you have enabled",
+            "properties": {
+                    "experiment_name": "The name of the experiment you have enabled",
+                    "experiment_options":["Individual experiment options you have enabled, if any"]
+                }
+        },
+        "blog_names": {
+            "description": "The blogs you have created",
+            "properties": {
+                    "current_blog_name": "The name of the blog as it currently exists",
+                    "prev_used_blog_name": "The blog names that were used before the current blog name"
+                }
+        },
+        "ugcLinks": {
+            "description": "Download your Tumblr content",
+            "additionalItems": "false",
+            "properties": [{
+                "link": "URL"
+                }]
+        },
+        "user_interest_profiles": {
+            "description": "Your interests based on historial data such as post engagements, posts you made, blogs you follow, and more",
+            "properties": {
+                  "interest": "What we think you're interested in based on your user interest profile"
+                }
+        },
+        "unfollows": {
+            "description": "Blogs you have unfollowed",
+                "properties": {
+                    "blog_name": "Blog that was unfollowed",
+                    "timestamp": "Date and time of unfollowing"
+                }
+        }
+    }
+}
