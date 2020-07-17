@@ -1,0 +1,151 @@
+{
+"schemaType": "subjectAccessRequest",
+"description": "Snapchat subjectAccessRequest schema",
+
+"Account":{
+	"Basic Information": {
+		"Username": "Name created by user", 
+		"Name": "Name of user", 
+		"Creation Date": "Date of account creation"},
+	"Device Information": "Information about the device on which Snapchat is currently logged in" {
+		"Make": "", 
+		"Model ID": "", 
+		"Model Name": "Name of the model used when using the application", 
+		"User Agent": "", 
+		"Language": "", 
+		"OS Type": "", 
+		"OS Version": "", 
+		"Connection Type": ""}, 
+	"Device History": [], 
+	"Privacy Policy and Terms of Service Acceptance History": [], 
+	"Custom Creative Tools Terms": [], 
+	"Login History": [{
+		"IP": "IP address of latest login", 
+		"Country": "Country of latest login", 
+		"Created": "Date of latest login", 
+		"Status": "succes/no succes", 
+		"Device": "Device on which was logged in then"}]
+		}
+	}
+		
+"Account History":{
+	"Display Name Change": "The display name it was changed to", 
+	"Email Change": "The email adress it was changed to" , 
+	"Mobile Number Change": [{
+		"Date": "Date on which mobile number is changed", 
+		"Mobile Number": "Mobile number it was changed to"}], 
+	"Password Change": [{
+		"Date": "Date on which password is changed"}], 
+	"Snapchat Linked to Bitmoji": "Personalized emoji to which Snapchat can be linked", 
+	"Spectacles": "Augmented reality sunglasses that can be linked to Snapchat", 
+	"Two-Factor Authentication": "Addition of second login step activated", 
+	"Account deactivated / reactivated": 
+	}
+
+"Friends":{
+	"Friends": [{
+		"Username": "Username of friend", 
+		"Display Name": "Displayname of friend"}], 
+	"Friend Requests Sent": [{
+		"Username": "Username of the person to which a friend request is sent", 
+		"Display Name": "Name displayed of user to which friend request is sent"},
+	"Blocked Users":, 
+	"Deleted Friends":
+	}
+
+"Bitmoji": ["Personalized emoji", {
+	"Basic Information": , 
+	"Analytics":, 
+	"Terms of Service Acceptance History":, 
+	"Search History": , 
+	"Support Cases": 
+}
+
+
+"Location History":{
+	"Frequent Locations": [{
+		"City": "Most frequent visited city", 
+		"Country": "Country of the most frequent visited city", 
+		"Region": ""}], 
+	"Latest Location": [{
+		"City": "", 
+		"Country": "", 
+		"Region": ""}], 
+	"Home & Work":, 
+	"Daily Top Locations": , 
+	"Top Locations Per Six-Day Period": , 
+	"Locations You Have Visited": "Number of locations you have visited"
+}
+
+"Purchase History":{
+	"In-App Purchases": "purchases done in the app", 
+	"On Demand Geofilters": "Filters connected to your geo-location that are bought"
+}
+
+"User profile":{
+	"App Profile": {
+		"Country": , 
+		"Creation Time": , 
+		"Account Creation Country":, 
+		"Platform Version": , 
+		"Phone Locale": }, 
+	"Demographics": {
+		"Cohort Age": , 
+		"Gender": }, 
+	"Subscriptions": , 
+	"Engagement": [{
+		"Event": "Direct Snaps Created", 
+			"Occurrences": "number"}, {
+		"Event": "Discover Snap Views", 
+			"Occurrences": }, {
+		"Event": "Longform Snap Views", 
+			"Occurrences": }, {
+		"Event": "Discover Editions Viewed", 
+			"Occurrences": }, {
+		"Event": "Application Opens", 
+			"Occurrences": }, {
+		"Event": "Discover Ad Views", 
+			"Occurrences": }], 
+	"Discover Channels Viewed": , 
+	"Ads You Interacted With": , 
+	"Interest Categories": , 
+	"Geographic Information":, 
+	"Interactions": {
+		"Web Interactions": "Interactions with other webpages while using this website", 
+		"App Interactions": "Interactions with other apps while using this app"}
+}
+
+"Ranking": {
+	"Number of Stories Viewed": , 
+	"Content Interests": 
+}
+
+"Search history":
+
+"Shared Story": 
+
+"Snap history": {
+	"Received Snap History": "History of snaps you received", 
+	"Sent Snap History": "History of snaps you send"
+}
+
+"Subscriptions": {
+	"Public Users":, 
+	"Publishers":, 
+	"Stories": 
+}
+
+"Support History": 
+
+"Terms History":{
+	"Snap Inc. Terms of Service": [{
+		"Version": "Snapcash Agreement", 
+			"Acceptance Date": ""}, {
+		"Version": "Snapchat Privacy Policy & Terms of Service - October 28, 2015", 
+			"Acceptance Date": ""}, {
+		"Version": "Snapchat Privacy Policy & Terms of Service - March 29, 2016", 
+			"Acceptance Date": ""}], 
+	"Custom Creative Tools Terms": [], 
+	"Business Services Terms": []
+	}
+}
