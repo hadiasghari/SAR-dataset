@@ -1,0 +1,156 @@
+{
+"schemaType": "subjectAccessRequest",
+"description": "Snapchat subjectAccessRequest data",
+
+"Account":{
+	"description": "Personal information on your account and device",
+	"Basic Information": {
+		"Username": "Username taken out",
+		"Name": null,
+		"Creation Date": "date and time of account creation taken out"},
+	"Device Information": {
+		"Make": "",
+		"Model ID": "",
+		"Model Name": "",
+		"User Agent": "",
+		"Language": "",
+		"OS Type": "",
+		"OS Version": "",
+		"Connection Type": ""},
+	"Device History": [],
+	"Privacy Policy and Terms of Service Acceptance History": [],
+	"Custom Creative Tools Terms": [],
+	"Login History": {
+		"IP": "IP address taken out",
+		"Country": "Country of latest login taken out",
+		"Created": "Date and time taken out",
+		"Status": "Status taken out",
+		"Device": "Device specifics taken out"
+	}
+},
+
+"Account History":{
+"description": "changes made within account settings"
+	"Display Name Change": [],
+	"Email Change": [],
+	"Mobile Number Change": [{
+		"Date": "Date and time taken out",
+		"Mobile Number": "New mobile number taken out"}],
+	"Password Change": [{
+		"Date": "Date and time taken out"}],
+	"Snapchat Linked to Bitmoji": "Personalized emoji to which Snapchat can be linked",
+	"Spectacles": "Augmented reality sunglasses that can be linked to Snapchat",
+	"Two-Factor Authentication": "Addition of second login step activated",
+	"Account deactivated / reactivated": "Date and time of activation"
+},
+
+"Friends":{
+"description": "data collected on friends of snapchat user",
+	"Friends": [{
+		"Username": "Username taken out",
+		"Display Name": "Displayname taken out"}],
+	"Friend Requests Sent": {
+		"Username": "Username of the person to which a friend request is sent taken out",
+		"Display Name": "Displayname of user to which friend request is sent taken out"},
+	"Blocked Users": ["Other Snapchat users that you blocked"],
+	"Deleted Friends": ["Other snapchat users that are defriended"]
+},
+
+"Bitmoji": {
+"description": "personalized emoji developed by Snap.inc",
+	"Basic Information": {},
+	"Analytics": {},
+	"Terms of Service Acceptance History": [],
+	"Search History": [],
+	"Support Cases": []
+},
+
+"Location History":{
+"description": "history on location information",
+	"Frequent Locations": [{
+		"City": "City name taken out",
+		"Country": "Country name taken out",
+		"Region": "Region taken out"}],
+	"Latest Location": [{
+		"City": "City name taken out",
+		"Country": "Country name taken out",
+		"Region": "Region taken out"}],
+	"Home & Work": {},
+	"Daily Top Locations": [],
+	"Top Locations Per Six-Day Period": [],
+	"Locations You Have Visited": []
+},
+
+"Purchase History":{
+"description": "Which in-app purchases and geofilters you purchased",
+	"In-App Purchases": [],
+	"On Demand Geofilters": []
+},
+
+"User profile":{
+	"App Profile": {
+		"Country": "Country taken out",
+		"Creation Time": "Date and time taken out",
+		"Account Creation Country": "",
+		"Platform Version": "Platform version taken out",
+		"Phone Locale": "Chosen language taken out"},
+	"Demographics": {
+		"Cohort Age": "",
+		"Gender": ""},
+	"Subscriptions": [],
+	"Engagement": [{
+		"Event": "Direct Snaps Created",
+			"Occurrences": ["number of occurences taken out"]}, {
+		"Event": "Discover Snap Views",
+			"Occurrences": ["number of occurences taken out"]}, {
+		"Event": "Longform Snap Views",
+			"Occurrences": ["number of occurences taken out"]}, {
+		"Event": "Discover Editions Viewed",
+			"Occurrences": ["number of occurences taken out"]}, {
+		"Event": "Application Opens",
+			"Occurrences": ["number of occurences taken out"]}, {
+		"Event": "Discover Ad Views",
+			"Occurrences": ["number of occurences taken out"]}],
+	"Discover Channels Viewed": [],
+	"Ads You Interacted With": [],
+	"Interest Categories": ["Interest categories taken out"],
+	"Geographic Information": [],
+	"Interactions": {
+		"Web Interactions": "Interactions with other webpages while using this website",
+		"App Interactions": "Interactions with other apps while using this app"}
+},
+
+"Ranking": {
+	"Number of Stories Viewed": ["Number taken out"],
+	"Content Interests": []
+},
+
+"Search history":{},
+
+"Shared Story": {},
+
+"Snap history": {
+	"Received Snap History": [],
+	"Sent Snap History": []
+},
+
+"Subscriptions": {
+	"Public Users": ["Username taken out"],
+	"Publishers": [],
+	"Stories": []
+},
+
+"Support History": {},
+
+"Terms History":{
+	"Snap Inc. Terms of Service": [{
+		"Version": "Snapcash Agreement",
+			"Acceptance Date": "date and time taken out"}, {
+		"Version": "Snapchat Privacy Policy & Terms of Service - October 28, 2015",
+			"Acceptance Date": "date and time taken out"}, {
+		"Version": "Snapchat Privacy Policy & Terms of Service - March 29, 2016",
+			"Acceptance Date": "date and time taken out"}], 
+	"Custom Creative Tools Terms": [],
+	"Business Services Terms": []
+	}
+}
