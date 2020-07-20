@@ -30,7 +30,7 @@
 },
 
 "Account History":{
-"description": "changes made within account settings"
+"description": "changes made within account settings",
 	"Display Name Change": [],
 	"Email Change": [],
 	"Mobile Number Change": [{
