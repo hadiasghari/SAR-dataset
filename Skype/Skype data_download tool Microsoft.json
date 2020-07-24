@@ -1,0 +1,39 @@
+{
+"schemaType": "subjectAccessRequest",
+"description": "Skype subjectAccessRequest data from Microsoft download tool",
+
+"SearchRequestAndQuery":{
+  "description": "Information on searches within Microsoft applications"
+  "pages": [
+   { "DateTime": "time stamp taken out",
+     "DeviceId": null,
+     "AccuracyRadius": null,
+     "Latitude": null,
+     "Longitude": null,
+     "NavigatedToUrls": [],
+     "SearchTerms": ""
+   }
+ ],
+},
+
+"ProductAndServiceUsage": {
+  "description": "Information on products and services of Microsoft used",
+  "pages": [
+  { "DateTime": "time stamp taken out",
+    "EndDateTime": "time stamp taken out",
+    "DeviceId": null,
+    "Aggregation": "Daily",
+    "AppName": "OneDrive",
+    "AppPublisher": "Microsoft Corporation"
+  },
+  {
+    "DateTime": "time stamp taken out",
+    "EndDateTime": "time stamp taken out",
+    "DeviceId": null,
+    "Aggregation": "Daily",
+    "AppName": "Skype",
+    "AppPublisher": "Microsoft Corporation"
+  }
+}
+
+}
