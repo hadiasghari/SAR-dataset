@@ -3,7 +3,7 @@
 "description": "Skype subjectAccessRequest data from Microsoft download tool",
 
 "SearchRequestAndQuery":{
-  "description": "Information on searches within Microsoft applications"
+  "description": "Information on searches within Microsoft applications",
   "pages": [
    { "DateTime": "time stamp taken out",
      "DeviceId": null,
