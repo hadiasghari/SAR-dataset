@@ -1,5 +1,5 @@
 # SAR-dataset
-Dataset of [subject access responses](https://wiki.personaldata.io/wiki/Subject_Access_Request) for a number of studies conducted at TU Delft. The dataset complements https://wiki.personaldata.io/wiki/TUDelft_SAR_encoding.
+Dataset of [subject access responses](https://wiki.personaldata.io/wiki/Subject_Access_Request) for a number of studies conducted at TU Delft. The dataset is partially encoded in Wikibase: https://wiki.personaldata.io/wiki/TUDelft_SAR_encoding.
 
 The following __studies__ offer more insight:
 - [Collectively Exercising the Right of Access: Individual Effort, Societal Effect](https://policyreview.info/articles/analysis/collectively-exercising-right-access-individual-effort-societal-effect) 
