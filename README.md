@@ -1,7 +1,7 @@
 # SAR-dataset
 Dataset of [subject access responses](https://wiki.personaldata.io/wiki/Subject_Access_Request) for a number of studies conducted at TU Delft. 
 
-__The dataset is partially encoded in Wikibase__: https://wiki.personaldata.io/wiki/TUDelft_SAR_encoding.
+__The dataset is encoded in Wikibase__: https://wiki.personaldata.io/wiki/TUDelft_SAR_encoding.
 
 ### Background
 
