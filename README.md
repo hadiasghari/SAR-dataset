@@ -12,7 +12,7 @@ The following __studies__ offer more information:
 
 The dataset has been gathered using the following __platforms__:
 - https://github.com/datarights/DataInSight
-- https://datarights.me
+- [https://datarights.me](https://web.archive.org/web/20201022062621/http://datarights.me/)
 
 
 For more information please contact @hadiasghari.
